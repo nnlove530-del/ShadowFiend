@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "shadowfiend:item/shadow_fiend_spawn_egg"
+  }
+}

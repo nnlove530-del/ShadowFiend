@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "shadowfiend",
+  "version": "${version}",
+  "name": "Shadow Fiend",
+  "description": "Adds a Shadow Fiend-inspired mob and spawn egg.",
+  "authors": ["Minecraft mod project"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["ru.shadowfiend.ShadowFiendMod"],
+    "client": ["ru.shadowfiend.ShadowFiendClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
